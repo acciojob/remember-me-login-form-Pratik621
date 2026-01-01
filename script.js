@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 const checkbox = document.getElementById("checkbox");
