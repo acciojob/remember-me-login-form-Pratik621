@@ -1,12 +1,10 @@
 //your JS code here. If required.
-// Get elements
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 const checkbox = document.getElementById("checkbox");
 const submitBtn = document.getElementById("submit");
 const existingBtn = document.getElementById("existing");
 
-// Check for saved credentials on page load
 const savedUsername = localStorage.getItem("username");
 const savedPassword = localStorage.getItem("password");
 
@@ -34,7 +32,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 	}
 });
 
-// Handle existing user login
 existingBtn.addEventListener("click", function () {
 	const storedUsername = localStorage.getItem("username");
 	alert(`Logged in as ${storedUsername}`);
